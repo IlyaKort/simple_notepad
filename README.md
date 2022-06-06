@@ -1,4 +1,4 @@
-# Simple Nodepad
+# Simple Notepad
 
 Самый простой блокнот
 
