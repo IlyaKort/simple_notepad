@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.code.korti.simplenotepad.R
+import com.code.korti.simplenotepad.data.db.models.Color
 import com.code.korti.simplenotepad.databinding.FragmentNoteBinding
 import com.code.korti.simplenotepad.utils.textChangedFlow
 import com.google.android.material.transition.MaterialSharedAxis
@@ -31,9 +32,7 @@ class AddingNoteFragment : Fragment(R.layout.fragment_note) {
 
         binding.timeTextView.isVisible = false
 
-        val color = com.code.korti.simplenotepad.data.db.models.Color.WHITE
-
-        viewModel.bind(titleFlow(), bodyFlow(), noteId, color)
+        viewModel.bind(titleFlow(), bodyFlow(), noteId, Color.WHITE)
     }
 
     private fun titleFlow(): Flow<String> {

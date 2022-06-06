@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Simple Notepad</string>
-    <string name="remove">Удалить</string>
-    <string name="сhange_color_of_card">Изменить цвет карты</string>
-
-    <string name="remove_this_note">Удалить данную заметку?</string>
 
     <string name="note_card_detail_transition_name">note_card_detail</string>
     <string name="note_card_transition_name">note_card_%1$s</string>
-
     <string name="fab_transition_name">fab_card</string>
 
+    <string name="remove_this_note">Удалить данную заметку?</string>
     <string name="note_is_delete">Запись удалена</string>
     <string name="delete_error">Ошибка при удалении</string>
     <string name="heading">Заголовок</string>
     <string name="description">Описание</string>
+    <string name="сhange_color_of_card">Изменить цвет карты</string>
     <string name="cancel">Отмена</string>
+    <string name="remove">Удалить</string>
     <string name="list_is_empty">Список пуст</string>
 
     //Color Dialog
-    <string name="color_selection">Выберете цвет</string>
+    <string name="color_selection">Выберите цвет</string>
     <string name="white">Белый</string>
     <string name="green">Зеленый</string>
-    <string name="blue">Сниний</string>
+    <string name="blue">Синий</string>
     <string name="red">Красный</string>
 </resources>
